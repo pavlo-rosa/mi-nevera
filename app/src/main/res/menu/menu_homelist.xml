@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/mhl_search"
+        android:icon="@drawable/ic_search_black_24dp"
+        android:orderInCategory="1"
+        android:title="Buscar"
+        app:showAsAction="ifRoom|collapseActionView"
+        app:actionViewClass="android.support.v7.widget.SearchView" />
+    <item
+        android:id="@+id/mhl_scan"
+        android:icon="@drawable/barcode_scan"
+        android:orderInCategory="2"
+        android:title="Escanear"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/mhl_text"
+        android:icon="@drawable/ic_mode_edit_24dp"
+        android:orderInCategory="3"
+        android:title="Nuevo Producto"
+        app:showAsAction="ifRoom" />
+
+</menu>

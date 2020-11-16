@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="Notificaciones">
+        <CheckBoxPreference
+            android:key="allNotification"
+            android:title="Recibir notificaciones"
+            android:defaultValue="true"/>
+
+        <ListPreference
+            android:key="list"
+            android:title="Aviso de caducidad"
+            android:summary="Seleccionar la antelación que desea  que le avisemos de los productos que van a caducar."
+            android:entries="@array/notificationDays"
+            android:entryValues="@array/daysValues"
+            android:dependency="allNotification"
+            android:defaultValue="0">
+        </ListPreference>
+
+    </PreferenceCategory>
+
+
+</PreferenceScreen>

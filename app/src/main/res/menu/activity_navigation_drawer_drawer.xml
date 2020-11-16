@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:checked="true"
+            android:id="@+id/nav_myInv"
+            android:icon="@drawable/ic_home_24dp"
+            android:title="Inventario" />
+        <item
+            android:id="@+id/nav_expiredList"
+            android:icon="@drawable/ic_delete_24dp"
+            android:title="Productos a caducar" />
+        <item
+            android:id="@+id/nav_shoppinglist"
+            android:icon="@drawable/ic_shopping_basket"
+            android:title="Lista de la Compra" />
+        <item
+            android:id="@+id/nav_myGH"
+            android:icon="@drawable/ic_people_black"
+            android:title="Mi Grupo de Hogar" />
+
+    </group>
+
+    <item android:title="Utilidades">
+        <menu>
+            <item
+                android:id="@+id/nav_manage"
+                android:icon="@drawable/ic_menu_manage"
+                android:title="Ajustes" />
+            <item
+                android:id="@+id/nav_closeSesion"
+                android:icon="@drawable/logout"
+                android:title="Cerrar Sesión" />
+        </menu>
+    </item>
+
+</menu>

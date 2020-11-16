@@ -1,0 +1,97 @@
+<resources>
+    <string name="app_name">Mi Nevera</string>
+    <string name="gcm_send_message">Token recuperado y enviado al servidor! Ya se puede utilizar el GCM para enviar mensajes posteriores a esta aplicación</string>
+    <string name="registering_message">Generando InstanceID token...</string>
+    <string name="token_error_message">A ocurrido un error</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="noExpire">01/01/1994</string>
+    <string name="notImageProfile">http://i65.tinypic.com/2vn1kxe.jpg</string>
+
+    <string name="action_join_gh">Unirse</string>
+    <string name="loading">Cargando...</string>
+    <string name="title_activity_join_gh">Unirse a un Grupo de Hogar</string>
+    <string name="title_activity_navigation_drawer">Mi Nevera</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="ToastPasswordIsEmpty">La contraseña no puede ser nula</string>
+    <string name="ToastFieldsAreEmpty">No pueden existir campos vacios</string>
+    <string name="ToastNameExist">Nombre introducido no válido</string>
+    <string name="ToastJoinGHIncorrect">Parametros incorrectos, revise los datos introducidos</string>
+    <string-array name="ipt_kinds">
+        <item name="Unit">Unidades</item>
+        <item name="Kg">Kilogramos</item>
+        <item name="g">Gramos</item>
+        <item name="l">Litros</item>
+    </string-array>
+
+    <string-array name="npt_kinds">
+        <item name="Unit">Unidades</item>
+        <item name="Kg">Kg</item>
+        <item name="g">g</item>
+        <item name="l">l</item>
+    </string-array>
+
+    <string name="productNoFound">El elemento escaneado no existe en la base de datos.</string>
+    <string name="productFound">El elemento escaneado correctamente.</string>
+
+     <string name="action_deep_link">
+        com.google.android.gms.samples.appinvite.DEEP_LINK_ACTION
+    </string>
+
+    <string name="invite">Send invitations!</string>
+    <string name="welcome">App Invite\nQuickstart</string>
+    <string name="referrer_hint">Deep link not provided</string>
+    <string name="deep_link_default">Deep link not set</string>
+    <string name="invitation_id_default">Invitation ID not set</string>
+    <string name="invite_friends">Invite Friends</string>
+
+    <string name="invitation_title">Invitar a...</string>
+    <string name="invitation_message1">Tienes una invitación de Mi Nevera</string>
+    <string name="invitation_message2">Te mando este correo para que te descargues y te unas a mi grupo de hogar de Mi Nevera.\n
+        Juntos podremos gestionar la lista de la compra y el inventario de casa de manera colaborativa, así que no esperes más y únete a Mi Nevera.\n
+</string>
+
+    <string name="invitation_deep_link">http://example.com/offer/five_dollar_offer</string>
+    <string name="invitation_custom_image">http://i66.tinypic.com/2aj6dlv.png</string>
+    <string name="invitation_cta">¡Instalar!</string>
+    <string name="invitation_subject">Invitación a grupo de hogar MiNevera</string>
+
+    <string name="deep_link_fmt" formatted="false">Deep Link: %s</string>
+    <string name="invitation_id_fmt" formatted="false">Invitation ID: %s</string>
+
+    <string name="sent_invitations_fmt" formatted="false">Sent %d invitations</string>
+    <string name="send_failed">Envio de invitaciones fallado</string>
+    <string name="send_canceled">Envio de invitaciones cancelado</string>
+    <string name="invite_dialog_title">¡Tienes una invitación!</string>
+
+    <string name="google_play_services_error">Google Play Services Error</string>
+    <string name="custom_invite">Custom Invite</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_settings">Ajustes</string>
+
+
+    <string-array name="notificationDays">
+        <item>El día de caducidad</item>
+        <item>1 días antes</item>
+        <item>2 días antes</item>
+        <item>3 días antes</item>
+        <item>4 días antes</item>
+        <item>5 días antes</item>
+    </string-array>
+    <string-array name="daysValues">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+
+
+</resources>
